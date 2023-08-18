@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA134E7B781EBCDAD6B3C37E /* Pods_Fri_Lenz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926C0D7F37D5FAEC58D5EF85 /* Pods_Fri_Lenz.framework */; };
+		E0075E592A8FDB5C007DDB4B /* NotScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0075E582A8FDB5C007DDB4B /* NotScreenshot.swift */; };
+		E07723142A8F46C800EF4528 /* CollectionImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07723132A8F46C800EF4528 /* CollectionImgViewController.swift */; };
+		E07723162A8F8F9F00EF4528 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07723152A8F8F9F00EF4528 /* ImageViewController.swift */; };
+		E080A8FE2A8EB34E00895A51 /* PoPUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080A8FD2A8EB34E00895A51 /* PoPUpViewController.swift */; };
+		E094E8EB2A8E61DA000402EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E8EA2A8E61DA000402EA /* AppDelegate.swift */; };
+		E094E8ED2A8E61DA000402EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E8EC2A8E61DA000402EA /* SceneDelegate.swift */; };
+		E094E8EF2A8E61DA000402EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E8EE2A8E61DA000402EA /* ViewController.swift */; };
+		E094E8F22A8E61DA000402EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E094E8F02A8E61DA000402EA /* Main.storyboard */; };
+		E094E8F42A8E61DC000402EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E094E8F32A8E61DC000402EA /* Assets.xcassets */; };
+		E094E8F72A8E61DC000402EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E094E8F52A8E61DC000402EA /* LaunchScreen.storyboard */; };
+		E094E9022A8E61DC000402EA /* Fri_LenzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E9012A8E61DC000402EA /* Fri_LenzTests.swift */; };
+		E094E90C2A8E61DC000402EA /* Fri_LenzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E90B2A8E61DC000402EA /* Fri_LenzUITests.swift */; };
+		E094E90E2A8E61DC000402EA /* Fri_LenzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E90D2A8E61DC000402EA /* Fri_LenzUITestsLaunchTests.swift */; };
+		E094E91B2A8E67FE000402EA /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E91A2A8E67FE000402EA /* BLEManager.swift */; };
+		E094E91F2A8E702C000402EA /* TextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094E91E2A8E702C000402EA /* TextFieldsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E094E8FE2A8E61DC000402EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E094E8DF2A8E61DA000402EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E094E8E62A8E61DA000402EA;
+			remoteInfo = "Fri+Lenz";
+		};
+		E094E9082A8E61DC000402EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E094E8DF2A8E61DA000402EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E094E8E62A8E61DA000402EA;
+			remoteInfo = "Fri+Lenz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C6510B8F72672E501DD0855 /* Pods-Fri+Lenz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fri+Lenz.release.xcconfig"; path = "Target Support Files/Pods-Fri+Lenz/Pods-Fri+Lenz.release.xcconfig"; sourceTree = "<group>"; };
+		926C0D7F37D5FAEC58D5EF85 /* Pods_Fri_Lenz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fri_Lenz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C5824467F7B8D32CF3293A /* Pods-Fri+Lenz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fri+Lenz.debug.xcconfig"; path = "Target Support Files/Pods-Fri+Lenz/Pods-Fri+Lenz.debug.xcconfig"; sourceTree = "<group>"; };
+		E0075E582A8FDB5C007DDB4B /* NotScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotScreenshot.swift; sourceTree = "<group>"; };
+		E07723132A8F46C800EF4528 /* CollectionImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImgViewController.swift; sourceTree = "<group>"; };
+		E07723152A8F8F9F00EF4528 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E080A8FD2A8EB34E00895A51 /* PoPUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoPUpViewController.swift; sourceTree = "<group>"; };
+		E094E8E72A8E61DA000402EA /* Fri+Lenz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fri+Lenz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E094E8EA2A8E61DA000402EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E094E8EC2A8E61DA000402EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E094E8EE2A8E61DA000402EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E094E8F12A8E61DA000402EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E094E8F32A8E61DC000402EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E094E8F62A8E61DC000402EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E094E8F82A8E61DC000402EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E094E8FD2A8E61DC000402EA /* Fri+LenzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fri+LenzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E094E9012A8E61DC000402EA /* Fri_LenzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fri_LenzTests.swift; sourceTree = "<group>"; };
+		E094E9072A8E61DC000402EA /* Fri+LenzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fri+LenzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E094E90B2A8E61DC000402EA /* Fri_LenzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fri_LenzUITests.swift; sourceTree = "<group>"; };
+		E094E90D2A8E61DC000402EA /* Fri_LenzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fri_LenzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E094E91A2A8E67FE000402EA /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		E094E91E2A8E702C000402EA /* TextFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E094E8E42A8E61DA000402EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA134E7B781EBCDAD6B3C37E /* Pods_Fri_Lenz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094E8FA2A8E61DC000402EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094E9042A8E61DC000402EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5216A5BCBE41393885FD0009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				926C0D7F37D5FAEC58D5EF85 /* Pods_Fri_Lenz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC84A10DDA19547D15351E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5824467F7B8D32CF3293A /* Pods-Fri+Lenz.debug.xcconfig */,
+				7C6510B8F72672E501DD0855 /* Pods-Fri+Lenz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E094E8DE2A8E61DA000402EA = {
+			isa = PBXGroup;
+			children = (
+				E094E8E92A8E61DA000402EA /* Fri+Lenz */,
+				E094E9002A8E61DC000402EA /* Fri+LenzTests */,
+				E094E90A2A8E61DC000402EA /* Fri+LenzUITests */,
+				E094E8E82A8E61DA000402EA /* Products */,
+				BC84A10DDA19547D15351E75 /* Pods */,
+				5216A5BCBE41393885FD0009 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E094E8E82A8E61DA000402EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E094E8E72A8E61DA000402EA /* Fri+Lenz.app */,
+				E094E8FD2A8E61DC000402EA /* Fri+LenzTests.xctest */,
+				E094E9072A8E61DC000402EA /* Fri+LenzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E094E8E92A8E61DA000402EA /* Fri+Lenz */ = {
+			isa = PBXGroup;
+			children = (
+				E094E8EA2A8E61DA000402EA /* AppDelegate.swift */,
+				E094E8EC2A8E61DA000402EA /* SceneDelegate.swift */,
+				E094E8EE2A8E61DA000402EA /* ViewController.swift */,
+				E094E91E2A8E702C000402EA /* TextFieldsViewController.swift */,
+				E080A8FD2A8EB34E00895A51 /* PoPUpViewController.swift */,
+				E07723132A8F46C800EF4528 /* CollectionImgViewController.swift */,
+				E07723152A8F8F9F00EF4528 /* ImageViewController.swift */,
+				E0075E582A8FDB5C007DDB4B /* NotScreenshot.swift */,
+				E094E91A2A8E67FE000402EA /* BLEManager.swift */,
+				E094E8F02A8E61DA000402EA /* Main.storyboard */,
+				E094E8F32A8E61DC000402EA /* Assets.xcassets */,
+				E094E8F52A8E61DC000402EA /* LaunchScreen.storyboard */,
+				E094E8F82A8E61DC000402EA /* Info.plist */,
+			);
+			path = "Fri+Lenz";
+			sourceTree = "<group>";
+		};
+		E094E9002A8E61DC000402EA /* Fri+LenzTests */ = {
+			isa = PBXGroup;
+			children = (
+				E094E9012A8E61DC000402EA /* Fri_LenzTests.swift */,
+			);
+			path = "Fri+LenzTests";
+			sourceTree = "<group>";
+		};
+		E094E90A2A8E61DC000402EA /* Fri+LenzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E094E90B2A8E61DC000402EA /* Fri_LenzUITests.swift */,
+				E094E90D2A8E61DC000402EA /* Fri_LenzUITestsLaunchTests.swift */,
+			);
+			path = "Fri+LenzUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E094E8E62A8E61DA000402EA /* Fri+Lenz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E094E9112A8E61DC000402EA /* Build configuration list for PBXNativeTarget "Fri+Lenz" */;
+			buildPhases = (
+				4786955B09CA649F4EB7AA88 /* [CP] Check Pods Manifest.lock */,
+				E094E8E32A8E61DA000402EA /* Sources */,
+				E094E8E42A8E61DA000402EA /* Frameworks */,
+				E094E8E52A8E61DA000402EA /* Resources */,
+				7164A4761E0E53A86006AD16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fri+Lenz";
+			productName = "Fri+Lenz";
+			productReference = E094E8E72A8E61DA000402EA /* Fri+Lenz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E094E8FC2A8E61DC000402EA /* Fri+LenzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E094E9142A8E61DC000402EA /* Build configuration list for PBXNativeTarget "Fri+LenzTests" */;
+			buildPhases = (
+				E094E8F92A8E61DC000402EA /* Sources */,
+				E094E8FA2A8E61DC000402EA /* Frameworks */,
+				E094E8FB2A8E61DC000402EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E094E8FF2A8E61DC000402EA /* PBXTargetDependency */,
+			);
+			name = "Fri+LenzTests";
+			productName = "Fri+LenzTests";
+			productReference = E094E8FD2A8E61DC000402EA /* Fri+LenzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E094E9062A8E61DC000402EA /* Fri+LenzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E094E9172A8E61DC000402EA /* Build configuration list for PBXNativeTarget "Fri+LenzUITests" */;
+			buildPhases = (
+				E094E9032A8E61DC000402EA /* Sources */,
+				E094E9042A8E61DC000402EA /* Frameworks */,
+				E094E9052A8E61DC000402EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E094E9092A8E61DC000402EA /* PBXTargetDependency */,
+			);
+			name = "Fri+LenzUITests";
+			productName = "Fri+LenzUITests";
+			productReference = E094E9072A8E61DC000402EA /* Fri+LenzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E094E8DF2A8E61DA000402EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E094E8E62A8E61DA000402EA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E094E8FC2A8E61DC000402EA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E094E8E62A8E61DA000402EA;
+					};
+					E094E9062A8E61DC000402EA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E094E8E62A8E61DA000402EA;
+					};
+				};
+			};
+			buildConfigurationList = E094E8E22A8E61DA000402EA /* Build configuration list for PBXProject "Fri+Lenz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E094E8DE2A8E61DA000402EA;
+			productRefGroup = E094E8E82A8E61DA000402EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E094E8E62A8E61DA000402EA /* Fri+Lenz */,
+				E094E8FC2A8E61DC000402EA /* Fri+LenzTests */,
+				E094E9062A8E61DC000402EA /* Fri+LenzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E094E8E52A8E61DA000402EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094E8F72A8E61DC000402EA /* LaunchScreen.storyboard in Resources */,
+				E094E8F42A8E61DC000402EA /* Assets.xcassets in Resources */,
+				E094E8F22A8E61DA000402EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094E8FB2A8E61DC000402EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094E9052A8E61DC000402EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4786955B09CA649F4EB7AA88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fri+Lenz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7164A4761E0E53A86006AD16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fri+Lenz/Pods-Fri+Lenz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fri+Lenz/Pods-Fri+Lenz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fri+Lenz/Pods-Fri+Lenz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E094E8E32A8E61DA000402EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0075E592A8FDB5C007DDB4B /* NotScreenshot.swift in Sources */,
+				E094E8EF2A8E61DA000402EA /* ViewController.swift in Sources */,
+				E094E91B2A8E67FE000402EA /* BLEManager.swift in Sources */,
+				E094E8EB2A8E61DA000402EA /* AppDelegate.swift in Sources */,
+				E080A8FE2A8EB34E00895A51 /* PoPUpViewController.swift in Sources */,
+				E094E8ED2A8E61DA000402EA /* SceneDelegate.swift in Sources */,
+				E094E91F2A8E702C000402EA /* TextFieldsViewController.swift in Sources */,
+				E07723162A8F8F9F00EF4528 /* ImageViewController.swift in Sources */,
+				E07723142A8F46C800EF4528 /* CollectionImgViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094E8F92A8E61DC000402EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094E9022A8E61DC000402EA /* Fri_LenzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E094E9032A8E61DC000402EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094E90E2A8E61DC000402EA /* Fri_LenzUITestsLaunchTests.swift in Sources */,
+				E094E90C2A8E61DC000402EA /* Fri_LenzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E094E8FF2A8E61DC000402EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E094E8E62A8E61DA000402EA /* Fri+Lenz */;
+			targetProxy = E094E8FE2A8E61DC000402EA /* PBXContainerItemProxy */;
+		};
+		E094E9092A8E61DC000402EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E094E8E62A8E61DA000402EA /* Fri+Lenz */;
+			targetProxy = E094E9082A8E61DC000402EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E094E8F02A8E61DA000402EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E094E8F12A8E61DA000402EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E094E8F52A8E61DC000402EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E094E8F62A8E61DC000402EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E094E90F2A8E61DC000402EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E094E9102A8E61DC000402EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E094E9122A8E61DC000402EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C5824467F7B8D32CF3293A /* Pods-Fri+Lenz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fri+Lenz/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fri+Lenz";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BLE飛ばしたい";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "BLE飛ばしたい";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.hopterschool..Fri-Lenz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E094E9132A8E61DC000402EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6510B8F72672E501DD0855 /* Pods-Fri+Lenz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fri+Lenz/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fri+Lenz";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "BLE飛ばしたい";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "BLE飛ばしたい";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.hopterschool..Fri-Lenz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E094E9152A8E61DC000402EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.hopterschool..Fri-LenzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fri+Lenz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fri+Lenz";
+			};
+			name = Debug;
+		};
+		E094E9162A8E61DC000402EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.hopterschool..Fri-LenzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fri+Lenz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fri+Lenz";
+			};
+			name = Release;
+		};
+		E094E9182A8E61DC000402EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.hopterschool..Fri-LenzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fri+Lenz";
+			};
+			name = Debug;
+		};
+		E094E9192A8E61DC000402EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MT2JN72543;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.or.hopterschool..Fri-LenzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fri+Lenz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E094E8E22A8E61DA000402EA /* Build configuration list for PBXProject "Fri+Lenz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094E90F2A8E61DC000402EA /* Debug */,
+				E094E9102A8E61DC000402EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E094E9112A8E61DC000402EA /* Build configuration list for PBXNativeTarget "Fri+Lenz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094E9122A8E61DC000402EA /* Debug */,
+				E094E9132A8E61DC000402EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E094E9142A8E61DC000402EA /* Build configuration list for PBXNativeTarget "Fri+LenzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094E9152A8E61DC000402EA /* Debug */,
+				E094E9162A8E61DC000402EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E094E9172A8E61DC000402EA /* Build configuration list for PBXNativeTarget "Fri+LenzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E094E9182A8E61DC000402EA /* Debug */,
+				E094E9192A8E61DC000402EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E094E8DF2A8E61DA000402EA /* Project object */;
+}

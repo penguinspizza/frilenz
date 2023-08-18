@@ -1,0 +1,22 @@
+# iosのバージョン○○に対応させるか決める
+platform :ios, '16.0' 
+use_frameworks!
+
+# targetの名前を書き換える
+target 'Fri+Lenz' do
+	pod 'Alamofire'
+	pod 'SwiftyJSON'
+	pod 'SDWebImage'
+	pod 'Kanna'
+	pod 'SDWebImage'
+end
+
+# target 'Oke' do
+# 	pod 'RxSwift'
+# 	pod 'RxCocoa'
+# 	pod 'Cartography'
+# 	pod 'SVProgressHUD'
+# 	pod 'Alamofire', '4.8.0'
+# 	pod 'SwiftyJSON'
+# 	pod 'SDWebImage'
+# end

@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Kanna (5.2.7)
+  - SDWebImage (5.15.2):
+    - SDWebImage/Core (= 5.15.2)
+  - SDWebImage/Core (5.15.2)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kanna
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kanna
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Kanna: 01cfbddc127f5ff0963692f285fcbc8a9d62d234
+  SDWebImage: 8ab87d4b3e5cc4927bd47f78db6ceb0b94442577
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: dec3b4244c35fb5e64b094c7bdad2034c1dbd976
+
+COCOAPODS: 1.11.3
